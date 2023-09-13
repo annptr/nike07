@@ -1,0 +1,336 @@
+@media only screen and (max-width: 1200px){
+    
+
+    
+
+}
+
+@media only screen and (max-width: 992px){
+
+    .container{
+       
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    
+    .header__logo {
+        margin-right: 100px;
+    }
+    
+    .navbar {
+        margin-right: 75px;
+    }
+
+    .intro {
+        height: 830px;
+    }
+
+    .intro__infa {
+        width: 430px;
+        height: 325px;
+    }    
+
+    .intro__title {
+        font-size: 64px;
+    }
+    
+    .intro__text {
+        width: 340px;
+        font-size: 14px;
+    }
+
+    .intro__subtitle {
+        width: 202px;
+        font-size: 12px;
+    }
+    
+    .intro__img img{
+        width: 500px;
+        height: 500px;
+
+    }
+    
+
+    .about{
+        height: 500px;
+        padding: 0;
+    }
+    
+
+    .about__item {
+        width: 300px;
+        height: 500px;
+    }
+
+
+    .about__item img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .gender {
+        width: 330px;
+        height: 50px;
+    }
+
+    .btn {
+        font-size: 16px;
+        
+        width: 155px;
+        height: 30px;
+        padding: 7px 53px;
+    }
+
+    .buttons{
+        margin-bottom:0;
+
+    }
+
+    .size {
+        margin-top: 60px;
+        height: 390px;
+        width: 385px;
+        margin-bottom: 8px;
+    }
+
+    .buy__text {
+        width: 340px;
+    }
+
+    .buy__title1 {
+        margin-right: 240px;
+    }    
+
+    .grid__inner {
+        margin-bottom: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }    
+
+    
+    .customize {
+        width: 400px;
+        height: 55px;
+    }
+
+    .btn__customize span {
+        padding: 14px 92px;
+        width: 400px;
+        height: 55px;
+    }
+
+    .sign__in {
+        width: 400px;
+        height: 55px;
+    }
+
+    .btn___sign {
+        padding: 14px 92px;
+        width: 400px;
+        height: 55px;
+    }
+
+    .inf__delivery {
+        width: 400px;
+        height: 137px;
+        padding: 20px 80px;
+    }
+
+    .buy__item {
+        height: 315px;
+    }
+
+    .buy__section__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__contacts {
+        display: flex;
+        justify-content: space-evenly;
+        width: 340px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    /**/
+}
+
+@media only screen and (max-width: 480px){
+    .container {
+        max-width: 421px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 40px;
+        height: 90px;
+    }
+
+    .header__inner {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    .header__icons{
+        display: none;
+
+    }
+
+    .search{
+        display: none;
+    }
+
+    .nav__button{
+        display: block;
+        border: none;
+        background: none;
+        font-size: 48px;
+    }
+    .intro {
+        height: 635px;
+    }
+
+    .intro__inner {
+    
+        flex-direction: column;
+    }
+
+    .intro__text {
+        display: none;
+    }
+
+    .intro__subtitle{
+        display: none;
+    }
+
+    .intro__infa {
+        width: 390px;
+        height: 150px;
+    }
+
+    
+    .intro__title {
+        font-size: 54px;
+        width: 375px;
+    }
+
+    .intro__img img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about__inner {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__text{
+        display: none;
+    }
+
+    .about__item img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about__item {
+        width: 350px;
+        height: 360px;
+    }
+
+    .about {
+        height: auto;
+    }
+    .buy__section {
+        padding: 0;
+    }
+
+    .grid{
+        display: none;
+    }
+
+    .btn__customize span {
+        padding: 2px 40px;
+        width: 209px;
+        height: 33px;
+        font-size: 16px;
+    }
+
+    .btn___sign {
+        padding: 2px 40px;
+        width: 209px;
+        height: 33px;
+        font-size: 16px;
+    }
+
+    .customize {
+        width: 350px;
+        height: 35px;
+    }
+
+    .sign__in{
+        
+        width: 350px;
+        height: 35px;
+        display: none;
+    }
+
+    .inf__delivery {
+        width: 300px;
+        height: 75px;
+        padding: 20px 25px;
+    }
+
+    .delivery p{
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .buy__item {
+        height: 165px;
+        padding: 20px 0;
+    }
+
+    .footer{
+        padding: 30px;
+
+    }
+
+    .footer__col2{
+        display: none;
+    }
+
+    .footer__col3{
+        display: none;
+    }
+
+    .footer__contacts {
+        display: flex;
+        justify-content: space-evenly;
+        width: 75px;
+        flex-direction: column;
+    }
+
+    .footer__contacts {
+        display: flex;
+        justify-content: space-evenly;
+        width: 75px;
+        height: 195px;
+        flex-direction: column;
+        
+    }
+}
+
+@media only screen and (max-width: 320px){
+    /**/
+}
